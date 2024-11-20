@@ -1,0 +1,402 @@
+body {
+    background-image: url(src/fondo22.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.inicio-bg {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(src/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+header.inicio-bg p {
+    margin-top: -70px;
+}
+
+.logo-img {
+    margin-top: -200px;
+    width: 400px;
+    height: 300px;
+}
+
+.highlight-text {
+    color: rgb(0, 255, 0);
+    text-align: center;
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000; 
+}
+
+nav.nav-bar {
+    background-color: rgb(40, 40, 40);
+    justify-content: center;
+    padding: 16px;
+    position: sticky;
+    top: -1px;
+    z-index: 1000;
+}
+
+nav.nav-bar ul {
+    justify-content: center;
+    width: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav.nav-bar a.nav-link {
+    text-align: center;
+    font-family: 'Minecraft Ten', sans-serif;
+    padding:12px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-shadow: 
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+    border-radius: 10px;
+}
+
+#nav-separe{
+    width: 104.5%;
+    margin-top: 12px;
+    margin-bottom : -15px;
+}
+
+
+nav.nav-bar a.nav-link:hover {
+    background-color:  #00ff33;
+}
+
+main {
+
+    margin: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.intro-section {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    height: 600px;
+}
+
+.text-intro{
+    width: 40%;
+    font-size: 14px;
+    text-align: justify;
+    margin-right: -40px;
+}
+.text-intro h3{
+    color: #00ff33;
+    text-align: center;
+    font-size: 25px;
+    font-family: Minecraft Ten;
+    margin-bottom: 20px;
+}
+
+.trailer-section {
+    width:  60%;
+    margin-left: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.video{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.trailer-text {
+    color: #00ff33;
+    font-family: Minecraft Ten;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.rtx-section {
+    padding: 100px;
+}
+
+.rtx-content {
+    padding: 50px;
+}
+
+.aldeanos-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.aldeanos-content {
+    width: 75%;
+}
+
+.aldeanos-image {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aldeanos-image .responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-gallery .responsive-img {
+    width: 200px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+
+    background: #000000df;
+    height: auto;
+    width: 100%;
+    padding: auto;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    padding-top: 20px;
+    font-family: 'Minecraft Ten';
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: rgb(0, 255, 34);
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    height: 60px;
+    padding:  20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #0bff2c;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #00ff33;
+}
+
+@media (max-width: 500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+.hero-section {
+    padding: 50px;
+    background-image: url('src/backgorundminecraft2.jpg');
+    background-size: cover;
+    color: #03ff46;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 {
+    font-family: 'Minecraft Ten';
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.features-section {
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.features-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.features-section th, .features-section td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.features-section th {
+    font-family: 'Minecraft Ten';
+    text-align: center;
+    background-color: #05e409;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.features-section tr:hover {
+    background-color: #09090999;
+
+}
+
+.features-section td {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+.features-section th, .features-section td {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.features-section th {
+    text-transform: uppercase;
+}
+
+.content {
+    text-align: justify;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.content h2 {
+    color: #05ff2b;
+}
+.separe{
+    background-image: url(src/muropiedramine1.jpg);
+    width: 108.5%;
+    height: 50%;
+    margin-left: -50px;
+    padding: 16px;
+}
+
+#minecraft1{
+    background-color: #00ff33;
+}
+#minecraft2{
+    background-color: #00ff33;
+}
+#minecraft3{
+    background-color: #00ff33;
+}
+
+
